@@ -35,7 +35,6 @@ public class AndroidMeActivity extends AppCompatActivity {
 
         // Only create new fragments when there is no previously saved state
         if(savedInstanceState == null) {
-            // TODO (5) Retrieve list index values that were sent through an intent; use them to display the desired Android-Me body part image
 
             // Create a new head BodyPartFragment
             BodyPartFragment headFragment = new BodyPartFragment();
